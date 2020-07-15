@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>FC de Lijsterboom - Bookilg</title>
+    <meta name="viewport" content="width=divice-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/rest.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <img src="../images/lijsterboomBanner.png" alt="banner afbeelding">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="../team.html">Team</a></li>
+                <li><a href="../opstelling.html">Opstelling</a></li>
+                <li><a href="../aansluiten.html">Aansluiting</a></li>
+                <li class="active"><a href="#">Booking</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="contact">
+            <a href="https://www.facebook.com/fcdelijsterboom/" alt="Facebook"><img src="../images/facebookLogo.png" alt="Facebook logo"></a>
+            <p> voor up to dat te blijven met onze bezigheden.</p>
+            
+            <a href="https://instagram.com/fcdelijsterboom?utm_source=ig_profile_share&igshid=66viley89bri"> <img src="../images/instagramLogo.png"></a>
+            <p> voor de grappige gebeurtenissen van op de trainingen kan je hier terecht</p>
+            
+            <a href="https://www.youtube.com/channel/UCEJHiowqdAl1NnUAcHlBv_w/featured?fbclid=IwAR3HoD2kgX87OXJfwDg63XoYusL2SMNa-Z8ua5G3uHjqucyisIJ3ANryKls"> <img src="../images/youtubeLogo.png"></a>
+            <p> Natuurlijk kan je ook onze fail momentjes terug vinden op YouTube.</p>
+        </section>
+        <section class="formulier">
+            <h3>Email</h3>
+            <p>Vragen? Vul het formulier in.</p>
+          
+            <form method="post" action="contact.html">
+                <fieldset>
+                    <p>
+                        <label for="first-name">Voornaam<span class="required">*</span></label>
+                        <input type="text" id="first-name" required="" placeholder="Voornaam">
+                    </p>
+                    <p>
+                        <label for="last-name">Achternaam<span class="required">*</span></label>
+                        <input type="text" id="last-name" required="" placeholder="Achternaam">
+                    </p>
+                    <p>
+                        <label for="email">Email<span class="required">*</span></label>
+                        <input type="email" name="email" id="email" required="" placeholder="Email adres">
+                    </p>
+
+                    <p id="textarea">
+                        <label for="message" id="messageText">Jouw bericht</label>
+                        <textarea name="Message" id="message" cols="30" rows="10" placeholder="Bericht."></textarea>
+                    </p>
+
+
+                    <p class="send">
+                        <input type="submit" value="verzenden">
+                    </p>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>
